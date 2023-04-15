@@ -137,5 +137,18 @@
                 }
             }
         }
+        .homeFooterIcons{
+            width: 100%;
+            justify-content: space-between;
+            .icon{
+                font-size: 30px;
+                margin: 0 5px;
+                color: var(--whiteColor);
+                font-weight: 600;
+                &:hover{
+                    color: var(--PrimaryColor);
+                }
+            }
+        }
     }
 }
